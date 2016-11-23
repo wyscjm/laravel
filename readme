@@ -1,0 +1,23 @@
+#Install
+安装软件请按如下步骤
+
+## install xampp
+[中文参考网址](https://www.apachefriends.org/zh_cn/index.html)
+
+1. 直接下载安装至 C:\tool\common\xampp
+2. 启动
+### confict:  port 443 is used by vm
+config vm's share port to 4443(just is not 443)
+
+## install composer
+[中文参考网址](http://docs.phpcomposer.com/)
+[英文参考网站](https://getcomposer.org/)
+```cmd
+cd C:\tool\common\xampp\php
+php -r "readfile('https://getcomposer.org/installer');" | php
+echo @php "%~dp0composer.phar" %*>composer.bat
+```
+[see](http://docs.phpcomposer.com/00-intro.html)
+
+
+## install
